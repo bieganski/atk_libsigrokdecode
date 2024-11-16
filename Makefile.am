@@ -45,7 +45,8 @@ libsigrokdecode_la_SOURCES = \
 	module_sigrokdecode.c \
 	type_decoder.c \
 	error.c \
-	version.c
+	version.c \
+	atk_decoder.c
 
 libsigrokdecode_la_LIBADD = $(SRD_EXTRA_LIBS) $(LIBSIGROKDECODE_LIBS)
 libsigrokdecode_la_LDFLAGS = -version-info $(SRD_LIB_VERSION) -no-undefined
